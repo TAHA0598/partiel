@@ -1,0 +1,417 @@
+/* Réinitialisation de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header et Navigation - Classes A1 à A6 */
+.A1 {
+    background: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.A2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.A3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.A4 {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.A5 {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.A5:hover {
+    color: #6366f1;
+}
+
+.A6 {
+    background: #4ade80;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Section Hero - Classes A7 à A17 */
+.A7 {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.A8 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.A9 {
+    flex: 1;
+}
+
+.A10 {
+    font-size: 48px;
+  
+    margin-bottom: 10px;
+}
+
+.A11 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #080820;
+    margin-bottom: 20px;
+}
+
+.A12 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.A13 {
+    display: flex;
+    gap: 15px;
+}
+
+.A14 {
+   
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.A15 {
+    flex: 1;
+    position: relative;
+}
+
+.A16 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(135deg, #e0e7ff, #c7d2fe);
+    border-radius: 50%;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+.A17 {
+    position: relative;
+    z-index: 2;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.A18 {
+    padding: 80px 0;
+    background: white;
+}
+
+.A19 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.A20 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-left: 200px;
+}
+
+.A21 {
+    display: flex;
+    gap: 100px;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.A22 img{
+    width: 500px;
+    margin-right:-200px;
+    height: 600px;
+    
+    
+    
+    
+
+}
+ 
+    
+
+
+.A23 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.A24 { background: #6366f1; }
+.A25 { background: #f43f5e; }
+.A26 { background: #333; }
+.A27 { background: #f97316; }
+.A28 { background: #3b82f6; }
+
+.A29 {
+   flex-direction: column;
+    
+   justify-content: flex-end;
+   margin-left:  100px            
+  
+}
+
+.A30{
+    flex-direction: column;
+    margin-left: 250px;       
+  
+   justify-content: flex-end;
+  
+}
+
+
+
+/* Section Portfolio - Classes A33 à A45 */
+.A33 {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.A34 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.A35 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.A36 {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+.A37 {
+    flex: 1;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.A36:nth-child(2) .A37 { background: #b2e6f9; }
+.A36:nth-child(3) .A37 { background: #f3e8ff; }
+.A36:nth-child(4) .A37 { background: #dcfce7; }
+
+.A38 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.A39 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.A40 {
+    background: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.A41 {
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.A42 {
+    background: #6366f1;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.A43 {
+    flex: 1;
+}
+
+.A44 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.A45 {
+    flex-direction: row-reverse;
+}
+
+/* Section Avis - Classes A46 à A54 */
+.A46 {
+    padding: 80px 0;
+    background: white;
+}
+
+.A47 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.A48 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.A49 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.A50 {
+    background: #f8fafc;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.A51 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+.A52 {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.A53 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.A54 {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Section CTA - Classes A55 à A59 */
+.A55 {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+}
+
+.A56 {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.A57 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.A58 {
+    font-size: 18px;
+    color: rgba(255,255,255,0.9);
+    margin-bottom: 30px;
+}
+
+.A59 {
+    background: #4ade80;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .A2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .A4 {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .A8, .A21, .A36, .A49 {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .A10, .A11 {
+        font-size: 32px;
+    }
+    
+    .A45 {
+        flex-direction: column;
+    }
+} index css
